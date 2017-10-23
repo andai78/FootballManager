@@ -6,8 +6,8 @@ export class Team{
     Country:string;
     Siege:string;
     Stadium:string;
-    League:League[];
+    League:string;
     Owner:string;
     President:string;
-    Coach:User;
+    Coach:string;
 }

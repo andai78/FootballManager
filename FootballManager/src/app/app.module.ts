@@ -8,17 +8,21 @@ import { AppComponent } from './app.component';
 import { LeagueComponent } from './league/league.component';
 
 import { LeagueService } from './services/league.service';
+import { TeamComponent } from './team/team.component';
 
 
-const routes = [
+const routes = 
+[
   { path: "", component: AppComponent},
-  { path: "choose", component: LeagueComponent}
+  { path: "chooseLeague", component: LeagueComponent},
+  { path: "showTeams", component: TeamComponent}
 ]
 
 @NgModule({
   declarations: [
     AppComponent,
-    LeagueComponent
+    LeagueComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,

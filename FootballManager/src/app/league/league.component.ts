@@ -19,4 +19,8 @@ export class LeagueComponent implements OnInit {
     this.leagues = this.leageServ.getLeagues();
   }
 
+  showTeams(league){
+    console.log(league);
+  }
+
 }
